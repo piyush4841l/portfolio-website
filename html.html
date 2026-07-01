@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Singh | Portfolio</title>
+    
+    <!-- Google Fonts for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Interactive Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href="#">PS</a></div>
+            <ul id="navlinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="hero">
+                <p class="greeting">Hi, I'm</p>
+                <h1>Piyush Singh</h1>
+                <h2>I build scalable backend systems.</h2>
+                <div class="detail">
+                    <p>I am a B.Tech CSE student passionate about bridging software development with real-world engineering challenges. From structuring databases to analyzing mechanical systems, I love solving complex problems.</p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-card"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="skill-card"><i class="fa-brands fa-java"></i> Java</div>
+                <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
+                <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="skill-card"><i class="fa-solid fa-c"></i> C / C++</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <!-- Notice how we use a simple container now, no more absolute positioning! -->
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Smart Bridge Analysis</h3>
+                    <p>A physical Warren Truss bridge model paired with a custom Python script to calculate structural load and parametric stress analysis.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Hotel Booking System</h3>
+                    <p>A full-stack MVC web application built using PHP and the Laravel framework to manage resort reservations and user logistics.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Piezoelectric Generator</h3>
+                    <p>An IoT embedded systems project utilizing piezoelectric discs to generate, manage, and store electricity from physical pressure.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="build">Let's Build Something Together</div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@PSNarrativeHub" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/piyush-singh-040b1134a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <div class="copyright"><i class="fa-regular fa-copyright"></i> 2026 Piyush Singh. Built from scratch.</div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
