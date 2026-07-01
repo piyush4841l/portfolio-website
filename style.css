@@ -57,7 +57,7 @@ nav {
     background-color: var(--nav-bg);
     padding: 15px 30px;
     border-radius: 30px;
-    box-shadow: 1px 3px 9px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 7px rgb(0 0 0 / 88%);
     transition: box-shadow 0.3s ease;
 }
 
@@ -131,7 +131,7 @@ section {
     max-width: 900px;
     padding: 50px;
     border-radius: 20px;
-    box-shadow: 3px 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 2px 4px 10px 0px rgb(0 0 0);
     text-align: center;
 }
 
